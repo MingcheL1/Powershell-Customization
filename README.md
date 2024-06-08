@@ -38,7 +38,14 @@ After you are done with installation, navigate to the "prompt" section, and foll
 
 Open up your custom profile, and copy paste my configs in there, change the theme path to whatever your theme path is, and your posh theme is all set up!
 
-# Step 4 -- Optional Configs
+# Step 4 -- Custom Scripts
+In your profile file, you can write custom scripts to help you manage your terminal. Some of the scripts I wrote include commands that updates the profile without having to write .$profile and many more
+
+To make the custom background and random background work, go to https://github.com/HarmVeenstra/Powershellisfun/tree/main/Set%20Windows%20Terminal%20Background%20Image and download the script.
+
+Import the script into your profile, and replace PATHTOBG with your actual background folder path.
+
+# Step 5 -- Optional Configs
 
 Navigate to settings > defaults, and go to background image, set the transparency to 20%.
 
