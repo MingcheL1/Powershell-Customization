@@ -1,4 +1,4 @@
-# Powershell-Customization
+# StarDev, a customized powershell terminal by Mingche
 My customization of my powershell terminal
 
 # Getting Started
