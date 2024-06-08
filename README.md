@@ -45,6 +45,13 @@ To make the custom background and random background work, go to https://github.c
 
 Import the script into your profile, and replace PATHTOBG with your actual background folder path.
 
+# Step 5 -- Winfetch
+Run terminal as administrator, and then follow this tutorial: https://github.com/lptstr/winfetch/wiki/Installation
+
+In your profile, add winfetch as a start up message.
+
+To config, follow this tutorial: https://github.com/lptstr/winfetch/wiki/Configuration
+
 # Step 5 -- Optional Configs
 
 Navigate to settings > defaults, and go to background image, set the transparency to 20%.
