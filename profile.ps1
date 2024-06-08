@@ -5,6 +5,7 @@ Write-Host "++++++++++++++++++++++++++"
 Write-Host "    User's Terminal"
 Write-Host "++++++++++++++++++++++++++"
 Write-Host " "
+winfetch
 
 function update{
 	.$profile
@@ -18,6 +19,7 @@ function clr{
 	Write-Host "    User's Terminal"
 	Write-Host "++++++++++++++++++++++++++"
 	Write-Host " "
+ 	winfetch
 	
 }
 function project{
@@ -33,7 +35,13 @@ function bg-random{
     Set-WindowsTerminalBackgroundImage -RandomBackgroundFolder PATHTOBGS -All
 }
 
+function config{
+	code $profile
+}
 
+function config-fetch{
+    code "Path\To\winfetch\config.ps1"
+}
 
 
 
