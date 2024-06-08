@@ -58,7 +58,8 @@ Navigate to settings > defaults, and go to background image, set the transparenc
 
 This set up is good for pictures with grey backgrounds, however, you can set up your background however you like. :D
 
-![image](https://github.com/MingcheL1/Powershell-Customization/assets/132795672/2aff1946-56c4-40eb-8664-6dad011728a1)
+
+![image](https://github.com/MingcheL1/Powershell-Customization/assets/132795672/e18e18a0-20a5-41c5-8c77-9d34ea7ebf92)
 
 
 
