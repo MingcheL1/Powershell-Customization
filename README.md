@@ -1,5 +1,5 @@
 # Starshell, a customized powershell terminal by Mingche
-My customization of my powershell terminal
+A powershell customization setup made by Mingche
 
 # Getting Started
 Open up powershell terminal on your computer
