@@ -70,22 +70,21 @@ This set up is good for pictures with grey backgrounds, however, you can set up 
 # Useful Commands
 
 ```
-
 winget install JanDeDobbeleer.OhMyPosh -s winget
-
 ```
-
-
 ```
-
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
-
+```
+```
 oh-my-posh get shell
-
+```
+```
 New-Item -Path $PROFILE -Type File -Force
-
+```
+```
 notepad $PROFILE
-
+```
+```
 . $PROFILE
 ```
 
