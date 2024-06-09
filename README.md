@@ -30,9 +30,13 @@ Restart settings, and the theme should be an available option to select.
 
 # Step 3 -- OH MY POSH!
 
-To get started, visit this website: https://ohmyposh.dev/docs
+To get started, go to your terminal and check if winget is installed, if not, install winget.
+
+next, go visit this website: https://ohmyposh.dev/docs
 
 Go to installation, go to the system you are on and follow the page. They tell you everything and every command you need to execute.
+
+If for whatever reason your computer isn't letting you install, please restart terminal and run it as an administrator, this should fix things.
 
 After you are done with installation, navigate to the "prompt" section, and follow the instructions.
 
@@ -61,5 +65,29 @@ This set up is good for pictures with grey backgrounds, however, you can set up 
 
 ![image](https://github.com/MingcheL1/Powershell-Customization/assets/132795672/e18e18a0-20a5-41c5-8c77-9d34ea7ebf92)
 
+
+
+# Useful Commands
+
+```
+
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
+```
+*Only run this command if you can't install it using winget*
+
+```
+$env:Path += ";C:\Users\user\AppData\Local\Programs\oh-my-posh\bin"
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+
+oh-my-posh get shell
+
+New-Item -Path $PROFILE -Type File -Force
+
+notepad $PROFILE
+
+. $PROFILE
+```
 
 
