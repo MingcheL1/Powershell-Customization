@@ -74,10 +74,9 @@ This set up is good for pictures with grey backgrounds, however, you can set up 
 winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ```
-*Only run this command if you can't install it using winget*
+
 
 ```
-$env:Path += ";C:\Users\user\AppData\Local\Programs\oh-my-posh\bin"
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 
